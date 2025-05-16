@@ -1,0 +1,58 @@
+# GUI Enhancements for YTScript
+
+YTScript now includes an improved graphical user interface with the following features:
+
+## New GUI Features
+
+- **Modern UI Design**: Clean layout with improved styling
+- **Light and Dark Themes**: Choose between light and dark modes for comfortable viewing
+- **History Tab**: Keeps track of previously transcribed videos
+- **Progress Bar**: Visual feedback during transcription and summarization
+- **Drag & Drop Support**: Simply drag YouTube URLs to the application
+- **Enhanced Settings**: More configuration options in categorized tabs
+- **Desktop Integration**: Easily install YTScript in your application menu
+
+## Using the GUI
+
+To start the application in GUI mode:
+
+```bash
+python3 ytscript.py --gui
+```
+
+You can also install a desktop entry for your system:
+
+```bash
+python3 install_desktop.py
+```
+
+## User Interface Guide
+
+### Transcribe Tab
+- Enter a YouTube URL or drag & drop it into the application
+- Select output directory and options (keep audio, generate SRT)
+- Click "Download and Transcribe" to start the process
+- Monitor progress in the console output and progress bar
+
+### History Tab
+- View previously transcribed videos
+- Double-click a history item to load it for transcription
+- Right-click for more options (open folder, load URL, remove from history)
+
+### Settings Tab
+- **Paths**: Configure paths for whisper.cpp, models, and default output
+- **Appearance**: Select theme (light/dark) and font sizes
+- **Tools**: View environment information and install missing dependencies
+
+### About Tab
+- Information about the application
+- Links to related projects
+- Version information and update check
+
+## System Requirements
+
+- Python 3.6+
+- tkinter (installed by default with most Python installations)
+- All dependencies needed for YTScript CLI
+
+Enjoy the improved user experience!

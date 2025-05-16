@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=YTScript
+Comment=Local YouTube Transcript Generator
+Exec=python3 %INSTALL_PATH%/ytscript.py --gui
+Icon=%INSTALL_PATH%/icon.svg
+Terminal=false
+Categories=Utility;AudioVideo;
+Keywords=YouTube;Transcription;Audio;
