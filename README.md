@@ -24,7 +24,7 @@ A fully local YouTube transcript generator that works offline after initial setu
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/YTScript.git
+git clone https://github.com/sukur123/YTTranscript.git
 cd YTScript
 
 # Install dependencies
